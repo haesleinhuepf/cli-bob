@@ -2,7 +2,7 @@
 
 cli-bob uses AI to generate command line code in case you can't remember the exact syntax.
 
-![](docs/screenshot1.png)
+![](https://github.com/haesleinhuepf/cli-bob/raw/main/docs/screenshot1.png)
 
 Under the hood, it uses the [claude](https://anthropic.com/api/) API to generate commands.
 
@@ -16,7 +16,7 @@ You also need to set an environment variable named `ANTHROPIC_API_KEY` as `cli-b
 
 ## Usage
 
-On the termal start typing `bob` and afterwards specify what you want to do. 
+On the terminal start typing `bob` and afterwards specify what you want to do. 
 `cli-bob` will then generate a command proposal for you and you can hit ENTER to run it.
 You can also modify the command before running it.
 Hit ESC to cancel execution.
