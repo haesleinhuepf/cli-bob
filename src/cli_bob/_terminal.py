@@ -67,6 +67,7 @@ Return the single-line command only, without markdown fences and any other text.
         command = "```".join(temp)
         command = remove_outer_markdown(command)
 
+    print("cli-bob uses artificial intelligence to generate terminal commands. Handle with care. Read the generated command carefully before executing it.")
     print()
 
     command = input_with_default("", command)
