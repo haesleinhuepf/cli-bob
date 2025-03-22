@@ -35,7 +35,6 @@ pip install cli-bob
 `cli-bob` uses the claude LLM for generating commands per default. You can configure other LLM-service providers by setting the environment variable `CLI_BOB_LLM_NAME`. 
 Additionally, you need to set the respective API key for the LLM-service provider.
 
-# Table of models and their respective API keys
 
 | Model name                                         | API key                                                                                                         |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -46,7 +45,7 @@ Additionally, you need to set the respective API key for the LLM-service provide
 | `kisski:codestral-22b`                             | `KISSKI_API_KEY` ([get here](https://services.kisski.de/services/en/service/?service=2-02-llm-service.json))    |
 | `blablador:alias-code`                            | `BLABLADOR_API_KEY` ([get here](https://login.helmholtz.de/oauth2-as/oauth2-authz-web-entry))                    |
 | `ollama:deepseek-coder-v2`                         | no API key required, but [model downloaded](https://ollama.com) )                                               |
- |--|--|
+
 
 For quickly testing the models, you can set an environment variable in your terminal on Windows like this:
 
